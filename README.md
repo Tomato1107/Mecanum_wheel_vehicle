@@ -4,3 +4,8 @@ Based on 3D printed parts and continuous rotation servo motors
 <p align="center">
 <img src="./mechanism/MK_Version1.JPG">
 </p> 
+
+Positon for the servo motors
+<p align="center">
+<img src="allocation.png">
+</p> 
