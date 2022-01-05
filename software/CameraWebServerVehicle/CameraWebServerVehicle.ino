@@ -174,24 +174,26 @@ void setup() {
 
   pinMode(FLASH_GPIO_NUM, OUTPUT);
 
-  /*S0 = map(170, 0, 180, COUNT_LOW, COUNT_HIGH);
+  /*
+  //Test for the position and rotation of each servo motors
+  S_0 = map(170, 0, 180, COUNT_LOW, COUNT_HIGH);
   ledcWrite(1, S0); 
   delay(1000);
   ledcWrite(1, 90);
   
-  S1 = map(170, 0, 180, COUNT_LOW, COUNT_HIGH);
+  S_1 = map(170, 0, 180, COUNT_LOW, COUNT_HIGH);
   ledcWrite(2, S1);
   delay(1000);
   ledcWrite(2, 90);
 
   
-  S2 = map(170, 0, 180, COUNT_LOW, COUNT_HIGH);
+  S_2 = map(170, 0, 180, COUNT_LOW, COUNT_HIGH);
   ledcWrite(3, S2); 
   delay(1000);
   ledcWrite(3, 90);
 
   
-  S3 = map(170, 0, 180, COUNT_LOW, COUNT_HIGH);
+  S_3 = map(170, 0, 180, COUNT_LOW, COUNT_HIGH);
   ledcWrite(4, S3);  
   delay(1000);
   ledcWrite(4, 90);*/
