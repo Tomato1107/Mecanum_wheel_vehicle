@@ -1,5 +1,6 @@
 # Mecanum_wheel_vehicle
 Based on 3D printed parts and continuous rotation servo motors
+The version of solidworks is 2021
 
 <p align="center">
 <img src="./mechanism/MK_Version1.JPG">
