@@ -26,3 +26,9 @@ The version of esp32_arduino is chosen as below
 video is shown as below link
 
 https://twitter.com/i/status/1478523500692656128
+
+
+In the floder of html, you can generate the camera_index.h from index_cam_robot.html as below
+<p align="center">
+<img src="./software/html/generate_camera_index_method.png">
+</p> 
