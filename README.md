@@ -19,3 +19,5 @@ The version of esp32_arduino is chosen as below
 <img src="esp32_arduino.png">
 </p> 
 
+video is shown as below link
+https://twitter.com/i/status/1478523500692656128
