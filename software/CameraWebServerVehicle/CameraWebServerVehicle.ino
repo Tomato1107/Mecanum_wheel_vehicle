@@ -31,12 +31,12 @@ int myRotation = CAM_ROTATION;
 #include "camera_pins.h"
 #include "robot_pins.h"
 
-const char* ssid = "ESP_TEST";
-const char* pass = "12345678";
+const char* ssid = "********";  //input your wifi settings
+const char* password = "********";
 
 //ESP32 SoftAP Configration
 /*const char ssid[] = "ESP32_TEST";
-const char pass[] = "12345678";
+const char password[] = "12345678";
 const IPAddress ip(192,168,11,7);
 const IPAddress subnet(255,255,255,0);
 */
@@ -146,13 +146,13 @@ void setup() {
 
 
   //SoftAP
-  /*WiFi.softAP(ssid,pass);
+  /*WiFi.softAP(ssid,password);
   delay(100);
   WiFi.softAPConfig(ip,ip,subnet);
   IPAddress myIP = WiFi.softAPIP();
   */
 
-  WiFi.begin(ssid, pass);
+  WiFi.begin(ssid, password);
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");
